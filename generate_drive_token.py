@@ -10,8 +10,8 @@ from oauth2client.client import OAuth2WebServerFlow
 __OAUTH_SCOPE = ['https://www.googleapis.com/auth/drive']
 __REDIRECT_URI = 'urn:ietf:wg:oauth:2.0:oob'
 
-__CLIENT_ID = input("Enter the client id: ")
-__CLIENT_SECRET = input("Enter the client secret: ")
+__CLIENT_ID = input("600048406570-clk6airhalnthoj75tnhhdbc0bek6k54.apps.googleusercontent.com")
+__CLIENT_SECRET = input("jWpiQc58TERQtbjGcxkoI2Fy")
 
 flow = OAuth2WebServerFlow(
         __CLIENT_ID,
